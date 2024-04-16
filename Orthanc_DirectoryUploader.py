@@ -23,7 +23,7 @@ def upload_dicom_files(directory, url):
 orthanc_url = 'http://localhost:8042/instances'
 
 # Path to the directory containing DICOM files
-directory_path = 'E:\HFH_Anon_test\MIDRC-RICORD'
+directory_path = 'Your Dir here'
 
 # Start uploading process
 upload_dicom_files(directory_path, orthanc_url)
